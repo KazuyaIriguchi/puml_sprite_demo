@@ -1,0 +1,17 @@
+@startuml
+
+!includeurl ./code_of_perfume_4.puml
+!includeurl ./code_of_perfume_8.puml
+!includeurl ./code_of_perfume_16.puml
+!includeurl ./code_of_perfume_4z.puml
+!includeurl ./code_of_perfume_8z.puml
+!includeurl ./code_of_perfume_16z.puml
+
+rectangle "<$code_of_perfume_4>\n-encodesprite 4" as perfume_4
+rectangle "<$code_of_perfume_4z>\n-encodesprite 4z" as perfume_4z
+rectangle "<$code_of_perfume_8>\n-encodesprite 8" as perfume_8
+rectangle "<$code_of_perfume_8z>\n-encodesprite 8z" as perfume_8z
+rectangle "<$code_of_perfume_16>\n-encodesprite 16" as perfume_16
+rectangle "<$code_of_perfume>\n-encodesprite 16z" as perfume
+
+@enduml
