@@ -1,0 +1,17 @@
+@startuml
+!includeurl ./code_of_perfume_16z.puml
+rectangle "<$code_of_perfume>\nPerfumeです" as perfume
+
+person "a-chan" as achan
+person KASHIYUKA as kashiyuka
+person NOCCHi as nocchi
+
+achan -> achan: あ～ちゃんです
+kashiyuka -> kashiyuka: かしゆかです
+nocchi -> nocchi: のっちです
+
+achan -down-> perfume: 3人合わせて
+kashiyuka -down-> perfume: 3人合わせて
+nocchi -down-> perfume: 3人合わせて
+
+@enduml
